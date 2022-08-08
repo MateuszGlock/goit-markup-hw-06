@@ -601,6 +601,9 @@ body {
 .newsletter-container {
   margin-left: 78px;
 }
+.newsletter-input {
+  margin-top: 20px;
+}
 
 .portfolio-part {
   background-color: var(--central-background);
