@@ -685,6 +685,7 @@ body {
 }
 .newsletter-button > svg {
   margin-left: 24px;
+  color: var(--header-background);
 }
 .portfolio-part {
   background-color: var(--central-background);
