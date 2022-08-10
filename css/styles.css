@@ -1082,3 +1082,17 @@ body {
   transition: background 250ms, color 250ms, box-shadow 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.cross-icon {
+  height: 11px;
+  width: 11px;
+  fill: rgb(0, 0, 0);
+  padding: 9px;
+}
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
