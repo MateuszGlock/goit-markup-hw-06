@@ -87,6 +87,36 @@
           <div class="modal">
             <div class="modal-content">
               <button class="modal-exit" data-modal-close>X</button>
+
+              <h4>Zostaw swoje dane w formularzu poniżej</h4>
+              <form>
+                <label>Imię</label>
+                <input type="text" name="name" />
+                <label>Telefon</label>
+                <input type="text" name="phone" />
+                <label>Email</label>
+                <input type="text" name="e-mail" />
+                <label>Komentarz</label>
+                <textarea
+                  type="text"
+                  name="comment"
+                  placeholder="Wprowadź tekst"
+                ></textarea>
+                <div class="terms-of-use-box">
+                  <input
+                    type="checkbox"
+                    name="terms-of-use"
+                    value="acceptance"
+                  />
+                  <label
+                    >Oświadczam iż akceptuję <span>Regulamin</span> i
+                    <span>Politykę Prywatności.</span></label
+                  >
+                </div>
+                <button type="submit" class="modal-send-button">
+                  <label>Wyślij</label>
+                </button>
+              </form>
             </div>
           </div>
         </div>
