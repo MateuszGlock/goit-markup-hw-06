@@ -1119,6 +1119,9 @@ body {
   top: 253px;
   left: 55px;
 }
-.input-box :focus {
-  border: 1px solid rgba(33, 150, 243, 1);
+.input-box > input :focus {
+  border-color: #2196f3;
+}
+.input-box > svg:focus {
+  fill: #2196f3;
 }
