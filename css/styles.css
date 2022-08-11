@@ -1056,13 +1056,23 @@ body {
 .modal-send-button {
   width: 200px;
   height: 50px;
-
+  border: none;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 40px;
+}
+.modal-send-button > label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
 }
 .modal-exit {
   position: absolute;
@@ -1119,9 +1129,10 @@ body {
   top: 253px;
   left: 55px;
 }
-.input-box > input :focus {
-  border-color: #2196f3;
+
+.input-box :focus-within {
+  fill: var(--link-color);
 }
-.input-box > svg:focus {
-  fill: #2196f3;
+.input-box > input :focus-within {
+  outline: 1px solid var(--link-color);
 }
