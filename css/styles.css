@@ -1107,6 +1107,13 @@ body {
   height: 12px;
   width: 12px;
   position: absolute;
-  top: 174px;
+  top: 180px;
+  left: 55px;
+}
+.envelope-icon {
+  height: 12px;
+  width: 15px;
+  position: absolute;
+  top: 249px;
   left: 55px;
 }
