@@ -1097,5 +1097,9 @@ body {
   cursor: pointer;
 }
 .person-icon {
+  height: 12px;
+  width: 12px;
   position: absolute;
+  top: 107px;
+  left: 55px;
 }
