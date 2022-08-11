@@ -1117,3 +1117,6 @@ body {
   top: 253px;
   left: 55px;
 }
+.input-box :focus {
+  color: var(--link-color);
+}
