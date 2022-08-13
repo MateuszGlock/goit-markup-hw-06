@@ -1133,9 +1133,13 @@ body {
   left: 55px;
 }
 
-.input-box :focus-within {
+.input-box:focus-within {
   fill: var(--link-color);
 }
-.input-box > input :focus-within {
+.input-box > input:focus-within {
   outline: 1px solid #2196f3;
+}
+
+.input-box:focus-within + .form-icon {
+  fill: var(--link-color);
 }
