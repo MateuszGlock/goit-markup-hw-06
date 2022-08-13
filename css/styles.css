@@ -668,7 +668,7 @@ body {
   padding-left: 42px;
   align-items: center;
 }
-.newsletter-button > h5 {
+.newsletter-button > span {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -994,7 +994,7 @@ body {
   margin-top: 40px;
   margin-bottom: 12px;
 }
-.modal-content > form >label{
+.modal-content > form > label {
   text-align: left;
   margin-bottom: 4px;
   display: grid;
@@ -1024,7 +1024,6 @@ body {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: outline 250ms, border 250ms;
-
 }
 .textarea-box {
   resize: none;
@@ -1037,7 +1036,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: outline 250ms, border 250ms;
 }
-}
+
 .terms-of-use-box {
   display: flex;
   margin-top: 20px;
@@ -1068,7 +1067,7 @@ body {
   margin-bottom: 40px;
   cursor: pointer;
 }
-.modal-send-button > label {
+.modal-send-button > span {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
