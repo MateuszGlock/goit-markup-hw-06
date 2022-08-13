@@ -1148,14 +1148,10 @@ body {
   left: 55px;
 }
 
-.input-box:focus-within {
-  fill: var(--link-color);
-}
-
-.input-box:focus-within {
+.input-box:focus {
   outline: 1px solid #2196f3;
 }
-.textarea-box:focus-within {
+.textarea-box:focus {
   outline: 1px solid #2196f3;
 }
 .input-box:focus-within + .person-icon,
