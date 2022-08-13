@@ -994,7 +994,7 @@ body {
   margin-top: 40px;
   margin-bottom: 12px;
 }
-.modal-content > form {
+.modal-content > form >label{
   text-align: left;
   margin-bottom: 4px;
   display: grid;
@@ -1040,8 +1040,6 @@ body {
 }
 .terms-of-use-box {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
 }
 .terms-of-use-box > label {
@@ -1050,11 +1048,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
-
   color: var(--header-contact-color);
-  margin-left: 8px;
+  /* margin-left: 8px; */
 }
 .terms-of-use-box > label > span {
   text-decoration: underline;
