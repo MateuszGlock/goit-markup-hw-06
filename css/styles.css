@@ -1079,6 +1079,7 @@ body {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 .modal-send-button > label {
   font-family: "Roboto";
@@ -1087,6 +1088,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: #ffffff;
 }
@@ -1162,4 +1164,7 @@ body {
 .input-box:focus-within + .tel-icon,
 .input-box:focus-within + .envelope-icon {
   fill: var(--link-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
