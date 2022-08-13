@@ -1158,6 +1158,8 @@ body {
 .input-box > textarea:focus-within {
   outline: 1px solid #2196f3;
 }
-.input-box:focus-within + .person-icon {
+.input-box:focus-within + .person-icon,
+.input-box:focus-within + .tel-icon,
+.input-box:focus-within + .envelope-icon {
   fill: var(--link-color);
 }
