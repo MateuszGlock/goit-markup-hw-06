@@ -1173,8 +1173,8 @@ body {
 }*/
 
 .modal-checkbox-div {
-  width: 16px;
-  height: 15px;
+  width: 12px;
+  height: 11px;
   position: relative;
   border: 2px solid var(--text-color);
   border-radius: 2px;
@@ -1197,7 +1197,7 @@ body {
 .modal-checkbox-svg {
   z-index: 102;
   border-radius: 2px;
-  width: 17px;
+  width: 16px;
   height: 16px;
   top: 50%;
   left: 50%;
