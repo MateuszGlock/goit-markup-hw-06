@@ -1166,6 +1166,7 @@ body {
   border: 1px solid black;
 }
 .modal-checkbox:checked + .modal-policy-text::before {
+  background-color: var(--link-color);
   border: none;
-  background-image: url(./images/icons.svg#check-icon);
+  background-image: url(./images/icons.svg#envelope-icon);
 }
