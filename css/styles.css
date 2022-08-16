@@ -1213,5 +1213,5 @@ body {
   opacity: 1;
 }
 .modal-checkbox-div:hover {
-  border-color: var(--blue-color);
+  border-color: var(--link-color);
 }
