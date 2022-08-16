@@ -1040,6 +1040,7 @@ body {
 .terms-of-use-box {
   display: flex;
   margin-top: 20px;
+  justify-content: center;
 }
 .terms-of-use-box > label {
   font-family: "Roboto";
@@ -1173,7 +1174,7 @@ body {
 }*/
 
 .modal-checkbox-div {
-  width: 12px;
+  width: 11px;
   height: 11px;
   position: relative;
   border: 2px solid var(--text-color);
