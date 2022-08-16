@@ -1158,3 +1158,10 @@ body {
   top: 467px;
   left: 42px;
 }
+.modal-policy-text::before {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
