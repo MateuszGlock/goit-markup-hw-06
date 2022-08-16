@@ -1178,7 +1178,7 @@ body {
   position: relative;
   border: 2px solid var(--text-color);
   border-radius: 2px;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-right: 8px;
   transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1212,6 +1212,7 @@ body {
 .modal-checkbox:checked + .modal-checkbox-svg {
   opacity: 1;
 }
+
 .modal-checkbox-div:hover {
   border-color: var(--link-color);
 }
