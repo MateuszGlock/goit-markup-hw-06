@@ -1167,5 +1167,5 @@ body {
 }
 .modal-checkbox:checked + .modal-policy-text::before {
   border: none;
-  background-image: url(../images/icons.svg#check-icon);
+  background-image: url(./images/icons.svg#check-icon);
 }
