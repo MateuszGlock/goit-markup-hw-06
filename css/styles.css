@@ -1158,7 +1158,7 @@ body {
   top: 467px;
   left: 42px;
 }
-.modal-policy-text::before {
+/*.modal-policy-text::before {
   display: inline-block;
   content: "";
   width: 16px;
@@ -1166,7 +1166,7 @@ body {
   border: 1px solid black;
   border-radius: 2px;
 }
-/*.modal-checkbox:checked + .modal-policy-text::before {
+.modal-checkbox:checked + .modal-policy-text::before {
   background-color: var(--link-color);
   border: none;
   background-image: url(./images/icons.svg#check-icon);
