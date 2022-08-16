@@ -1165,3 +1165,7 @@ body {
   height: 16px;
   border: 1px solid black;
 }
+.modal-checkbox:checked + .modal-policy-text::before {
+  border: none;
+  background-image: url(../images/icons.svg#check-icon);
+}
