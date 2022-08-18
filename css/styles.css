@@ -667,6 +667,7 @@ body {
   height: 50px;
   padding-left: 42px;
   align-items: center;
+  cursor: pointer;
 }
 .newsletter-button > span {
   font-family: "Roboto";
